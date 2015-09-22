@@ -5,7 +5,7 @@ Starter Kit for a Simple Website Development.
 
 - Compile HTML files from Jade templates.
 - Prettify HTML formats.
-- Transform latest CSS syntaxes to compatible ones(e.g. Vendor prefixes).
+- Transform latest CSS syntaxes to compatible ones(using [cssnext](http://cssnext.io/)).
 - Enable to use nesting, mixins, and simple variables like SCSS syntaxes.
 - Run Browser-Sync when compiling files.
 
