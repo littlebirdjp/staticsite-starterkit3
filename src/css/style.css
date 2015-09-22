@@ -1,0 +1,81 @@
+:root {
+  font-size: 10px;
+}
+
+$textcolor: #000;
+
+body {
+  color: $textcolor;
+  font-size: 1rem;
+}
+
+.wrapper {
+  width: 960px;
+  margin: 0 auto;
+  font-size: 1.8rem;
+}
+
+@media screen and (min-width: 480px) {
+  .wrapper {
+    font-size: 1.4rem;
+  }
+}
+
+header {
+  margin: 50px 0;
+  h1 {
+    text-align: center;
+    font-size: 150%;
+    font-weight: bold;
+    margin: 0 0 30px 0; 
+  }
+}
+
+section {
+  margin: 0 0 40px 0;
+  h2 {
+    font-size: 120%;
+    font-weight: bold;
+    margin: 0 0 20px 0;
+  } 
+}
+
+footer {
+  margin: 0 0 30px 0;
+}
+
+.footerLink {
+  text-align: center;
+  margin: 0 0 30px 0;
+  li {
+    display: inline;
+  }
+}
+
+.copyright {
+  text-align: center;
+  font-size: 80%;
+}
+
+@define-mixin icon $network, $color: blue {
+    .icon.is-$(network) {
+        color: $color;
+        @mixin-content;
+    }
+    .icon.is-$(network):hover {
+        color: white;
+        background: $color;
+    }
+}
+
+@mixin icon twitter {
+    background: url(twt.png);
+}
+@mixin icon youtube, red {
+    background: url(youtube.png);
+}
+
+@import "layout_parts/_cat1";
+
+
+
