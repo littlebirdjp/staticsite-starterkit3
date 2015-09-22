@@ -39,7 +39,7 @@ $ npm start
 
 ## Option
 
-[cssnext functions](http://cssnext.io/features/) are automatically adopted depending on browser options.
+[cssnext functions](http://cssnext.io/features/) are automatically adopted depending on browser options.  
 So, Change the setting in gulpfile.js for your project's requiement.
 
 ```
