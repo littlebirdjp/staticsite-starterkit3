@@ -47,3 +47,19 @@ browsers: 'last 2 versions'
 ```
 
 More specific Browserslist queries are [here](https://github.com/ai/browserslist#queries).
+
+# Trouble Shooting
+
+When using the postcss-nested plugin, You may encounter an error message like blow.
+
+```
+Your current PostCSS version is 4.1.16, but postcss-nested uses 5.0.4. Perhaps this is the source of the error below.
+```
+
+In that case, Try this command at ./node_modules/gulp-cssnext/node_modules/cssnext directory to upgrade PostCSS version.
+
+```
+$ npm i postcss@5.0.4 --save
+```
+
+I hope this error will be fixed in the next version of gulp-cssnext.
