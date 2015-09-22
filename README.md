@@ -6,7 +6,8 @@ Starter Kit for a Simple Website Development.
 - Compile HTML files from Jade templates.
 - Prettify HTML formats.
 - Transform latest CSS syntaxes to compatible ones(using [cssnext](http://cssnext.io/)).
-- Enable to use nesting, mixins, and simple variables like SCSS syntaxes.
+- Enable to use [nesting](https://github.com/postcss/postcss-nested), [mixins](https://github.com/postcss/postcss-mixins), and [simple variables](https://github.com/postcss/postcss-simple-vars) like SCSS syntaxes.
+- Include a reset CSS automatically.
 - Run Browser-Sync when compiling files.
 
 ## Requirement
@@ -35,3 +36,14 @@ or
 ```
 $ npm start
 ```
+
+## Option
+
+[cssnext functions](http://cssnext.io/features/) are automatically adopted depending on browser options.
+So, Change the setting in gulpfile.js for your project's requiement.
+
+```
+browsers: 'last 2 versions'
+```
+
+More specific Browserslist queries are [here](https://github.com/ai/browserslist#queries).
