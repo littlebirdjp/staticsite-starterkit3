@@ -48,7 +48,7 @@ browsers: 'last 2 versions'
 
 More specific Browserslist queries are [here](https://github.com/ai/browserslist#queries).
 
-# Trouble Shooting
+## Trouble Shooting
 
 When using the postcss-nested plugin, You may encounter an error message like blow.
 
