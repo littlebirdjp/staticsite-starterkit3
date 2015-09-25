@@ -1,7 +1,8 @@
 {
   "name": "staticsite-starterkit",
   "version": "0.2.1",
-  "description": "",
+  "description": "Starter Kit for a Simple Website Development.",
+  "author": "Yusuke Takahashi <youthkee@gmail.com>",
   "scripts": {
     "start": "gulp",
     "test": "echo \"Error: no test specified\" && exit 1"
