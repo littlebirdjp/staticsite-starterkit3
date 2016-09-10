@@ -1,8 +1,13 @@
 {
   "name": "staticsite-starterkit",
-  "version": "0.2.1",
+  "version": "1.0.0",
   "description": "Starter Kit for a Simple Website Development.",
   "author": "Yusuke Takahashi <youthkee@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/littlebirdjp/staticsite-starterkit3.git"
+  },
   "scripts": {
     "start": "gulp",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -13,17 +18,19 @@
   "devDependencies": {
     "browser-sync": "^2.8.2",
     "gulp-concat": "^2.1.0",
-    "gulp-cssnext": "^1.0.1",
-    "gulp-csso": "^1.0.0",
-    "gulp-jade": "^0.11.0",
+    "gulp-csso": "^2.0.0",
+    "gulp-jade": "^1.1.0",
     "gulp-plumber": "^1.0.1",
-    "gulp-prettify": "^0.3.0",
+    "gulp-postcss": "^6.1.1",
+    "gulp-prettify": "^0.5.0",
     "gulp-rename": "^1.2.2",
-    "gulp-shell": "^0.4.2",
-    "gulp-uglify": "^1.2.0",
+    "gulp-shell": "^0.5.2",
+    "gulp-uglify": "^2.0.0",
     "marked": "^0.3.5",
-    "postcss-mixins": "^1.0.0",
+    "postcss-cssnext": "^2.7.0",
+    "postcss-import": "^8.1.2",
+    "postcss-mixins": "^5.0.1",
     "postcss-nested": "^1.0.0",
-    "postcss-simple-vars": "^1.0.0"
+    "postcss-simple-vars": "^3.0.0"
   }
 }

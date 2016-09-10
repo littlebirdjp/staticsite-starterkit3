@@ -1,3 +1,5 @@
+@import "layout_parts/_cat1";
+
 :root {
   font-size: 10px;
 }
@@ -27,7 +29,7 @@ header {
     text-align: center;
     font-size: 150%;
     font-weight: bold;
-    margin: 0 0 30px 0; 
+    margin: 0 0 30px 0;
   }
 }
 
@@ -37,7 +39,7 @@ section {
     font-size: 120%;
     font-weight: bold;
     margin: 0 0 20px 0;
-  } 
+  }
 }
 
 footer {
@@ -74,8 +76,3 @@ footer {
 @mixin icon youtube, red {
     background: url(youtube.png);
 }
-
-@import "layout_parts/_cat1";
-
-
-
